@@ -99,7 +99,7 @@
 &kp TAB    &kp N1  &kp N2  &kp N3  &kp N4      &kp N5                                  &mmv MOVE_UP                     &kp N6     &kp N7           &kp N8          &kp N9        &kp N0           &kp BSPC
 &trans     &kp F1  &kp F2  &kp F3  &kp F4      &kp F5                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp LEFT         &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &rgb_ug RGB_ON
 &kp LSHFT  &kp F6  &kp F7  &kp F8  &kp F9      &kp F10    &mkp RCLK                    &mmv MOVE_DOWN                   &kp PLUS   &kp KP_MULTIPLY  &kp SLASH       &kp PERCENT   &rgb_ug RGB_OFF  &kp LGUI
-                           &trans  &kp RETURN  &kp SPACE                                                                &kp EQUAL  &kp RALT
+                           &trans  &kp RETURN  &kp ENTER                                                                &kp SPACE  &kp EQUAL  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
@@ -110,8 +110,8 @@
             bindings = <
 &kp TAB    &kp EXCL         &kp AT           &kp HASH         &kp DLLR       &kp LEFT_PARENTHESIS                                    &mmv MOVE_UP                      &kp RIGHT_PARENTHESIS  &kp INTERNATIONAL_7  &kp INTERNATIONAL_8  &kp INTERNATIONAL_9  &kp NUMBER_0  &kp BSPC
 &kp LCTRL  &trans           &kp EXCLAMATION  &kp EQUAL        &kp AMPERSAND  &kp LEFT_BRACKET                        &mmv MOVE_LEFT  &mkp LCLK        &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp INTERNATIONAL_4  &kp INTERNATIONAL_5  &kp INTERNATIONAL_6  &kp BSLH      &kp GRAVE
-&kp LSHFT  &rgb_ug RGB_HUD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &kp PIPE       &kp LEFT_BRACE        &mmv MOVE_DOWN                    &kp RIGHT_BRACE                   &kp INTERNATIONAL_1    &kp INTERNATIONAL_2  &kp INTERNATIONAL_3  &kp PIPE             &kp TILDE     &kp LGUI
-                                             &trans           &kp SPACE      &kp RET                                                                                   &trans                 &kp RALT
+&kp LSHFT  &rgb_ug RGB_HUD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &kp PIPE       &kp LEFT_BRACE       &kp K_MUTE                         &mmv MOVE_DOWN                    &kp RIGHT_BRACE                   &kp INTERNATIONAL_1    &kp INTERNATIONAL_2  &kp INTERNATIONAL_3  &kp PIPE             &kp TILDE     &kp LGUI
+                                             &trans           &trans      &kp RET                                                                                   &kp SPACE              &trans                 &kp RALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
