@@ -15,10 +15,10 @@
 
 /* Couleurs de couches */
 
-#define RGB_BASE RGB_COLOR_HSB(210, 90, 18)   /* bleu doux */
-#define RGB_NAV  RGB_COLOR_HSB(170, 100, 26)  /* cyan/vert */
-#define RGB_SYM  RGB_COLOR_HSB(32, 100, 28)   /* orange */
-#define RGB_SYS  RGB_COLOR_HSB(300, 100, 28)  /* magenta */
+#define RGB_BASE RGB_COLOR_HSB(120, 100, 26)   /* vert */
+#define RGB_NAV  RGB_COLOR_HSB(32, 100, 30)    /* orange */
+#define RGB_SYM  RGB_COLOR_HSB(285, 100, 28)   /* mauve */
+#define RGB_SYS  RGB_COLOR_HSB(225, 100, 20)   /* bleu foncé */
 
 / {
     behaviors {
