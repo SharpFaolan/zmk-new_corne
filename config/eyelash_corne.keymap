@@ -100,7 +100,6 @@
     };
 
     macros {
-        macros {
         nav_rgb: nav_rgb {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -140,8 +139,6 @@
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(210,90,18)>;
         };
     };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
