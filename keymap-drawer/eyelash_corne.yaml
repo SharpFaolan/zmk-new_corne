@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - MUTE
+  - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
   - N
   - {t: ',', s: <}
@@ -92,11 +92,11 @@ layers:
   - '%'
   - PG UP
   - PG DN
-  - RGB HUD
-  - RGB HUI
+  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: '=', s: +}
+  - '&sys_rgb'
   - $$mdi:apple-keyboard-option$$
   SYM_FR_CODE:
   - $$mdi:keyboard-tab$$
@@ -123,29 +123,29 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: \, s: '|'}
   - {t: /, s: '?'}
-  - {t: '''', s: '"'}
-  - '"'
-  - ^
-  - {t: '`', s: '~'}
+  - '&fr_e_acute'
+  - '&fr_e_grave'
+  - '&fr_e_circ'
+  - '&fr_a_grave'
   - $$mdi:apple-keyboard-shift$$
   - '|'
   - <
   - '~'
   - '{'
   - '|'
-  - MUTE
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '>'
-  - INTERNATIONAL 1
-  - INTERNATIONAL 2
-  - INTERNATIONAL 3
-  - INTERNATIONAL 4
+  - '&fr_a_circ'
+  - '&fr_o_circ'
+  - '&fr_u_grave'
+  - '&fr_u_circ'
   - '?'
-  - RGB EFR
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&sys_rgb'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - RGB EFF
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   SYS_MOUSE:
   - '&studio_unlock'
@@ -173,8 +173,8 @@ layers:
   - PRINTSCREEN
   - SCROLLLOCK
   - PAUSE BREAK
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - RGB HUD
+  - RGB HUI
   - F12
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
@@ -182,14 +182,14 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:volume-off$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFR
+  - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
