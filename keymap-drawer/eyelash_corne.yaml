@@ -142,10 +142,10 @@ layers:
   - INTERNATIONAL 4
   - '?'
   - RGB EFR
-  - RGB EFF
+  - '&sys_rgb'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - '&sys_rgb'
+  - RGB EFF
   - $$mdi:apple-keyboard-option$$
   SYS_MOUSE:
   - '&studio_unlock'
